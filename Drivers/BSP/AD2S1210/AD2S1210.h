@@ -121,6 +121,12 @@
 #define SET_SOE() do{ HAL_GPIO_WritePin(_SOE_GPIO_PORT, _SOE_GPIO_PIN, GPIO_PIN_SET); }while(0)
 #define CLR_SOE() do{ HAL_GPIO_WritePin(_SOE_GPIO_PORT, _SOE_GPIO_PIN, GPIO_PIN_RESET); }while(0)
 
+#define SET_RES0() do{ HAL_GPIO_WritePin(RES0_GPIO_PORT, RES0_GPIO_PIN, GPIO_PIN_SET); }while(0)
+#define CLR_RES0() do{ HAL_GPIO_WritePin(RES0_GPIO_PORT, RES0_GPIO_PIN, GPIO_PIN_RESET); }while(0)
+
+#define SET_RES1() do{ HAL_GPIO_WritePin(RES1_GPIO_PORT, RES1_GPIO_PIN, GPIO_PIN_SET); }while(0)
+#define CLR_RES1() do{ HAL_GPIO_WritePin(RES1_GPIO_PORT, RES1_GPIO_PIN, GPIO_PIN_RESET); }while(0)
+
 void AD2S1210GPIOInitiate(void);
 void AD2S1210Initiate(void);
 void AD2S1210SelectMode(unsigned char mode);

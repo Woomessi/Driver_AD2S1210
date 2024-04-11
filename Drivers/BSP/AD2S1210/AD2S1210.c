@@ -139,7 +139,7 @@ void AD2S1210GPIOInitiate()
 	
 	gpio_init_struct.Pin = SDO_GPIO_PIN;
 	gpio_init_struct.Mode = GPIO_MODE_INPUT;
-	gpio_init_struct.Pull = GPIO_NOPULL;
+	//gpio_init_struct.Pull = GPIO_NOPULL;
 	HAL_GPIO_Init(SDO_GPIO_PORT, &gpio_init_struct);
 	
 }
