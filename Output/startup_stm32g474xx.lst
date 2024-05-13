@@ -810,7 +810,7 @@ Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp.sp --apcs=
 interwork --depend=..\..\output\startup_stm32g474xx.d -o..\..\output\startup_st
 m32g474xx.o -IC:\Users\WuHongrui\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.5
 .0\Drivers\CMSIS\Device\ST\STM32G4xx\Include --predefine="__MICROLIB SETA 1" --
-predefine="__UVISION_VERSION SETA 537" --predefine="STM32G474xx SETA 1" --list=
+predefine="__UVISION_VERSION SETA 536" --predefine="STM32G474xx SETA 1" --list=
 ..\..\output\startup_stm32g474xx.lst ..\..\Drivers\CMSIS\Device\ST\STM32G4xx\So
 urce\Templates\arm\startup_stm32g474xx.s
 

@@ -186,7 +186,6 @@
             <RvdsVP>2</RvdsVP>
             <RvdsMve>0</RvdsMve>
             <RvdsCdeCp>0</RvdsCdeCp>
-            <nBranchProt>0</nBranchProt>
             <hadIRAM2>0</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
@@ -553,6 +552,11 @@
               <FileName>AD2S1210.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\Drivers\BSP\AD2S1210\AD2S1210.c</FilePath>
+            </File>
+            <File>
+              <FileName>DRV8301.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Drivers\BSP\DRV8301_HAL\DRV8301.c</FilePath>
             </File>
           </Files>
         </Group>

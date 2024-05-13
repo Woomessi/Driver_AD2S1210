@@ -82,3 +82,4 @@
 ..\..\output\main.o: C:\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdio.h
 ..\..\output\main.o: ..\..\Drivers\./SYSTEM/delay/delay.h
 ..\..\output\main.o: ..\..\Drivers\./BSP/AD2S1210/AD2S1210.h
+..\..\output\main.o: ..\..\Drivers\./BSP/DRV8301_HAL/DRV8301.h

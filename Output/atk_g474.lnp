@@ -29,6 +29,7 @@
 "..\..\output\key.o"
 "..\..\output\norflash.o"
 "..\..\output\ad2s1210.o"
+"..\..\output\drv8301.o"
 "..\..\output\usmart.o"
 "..\..\output\usmart_config.o"
 "..\..\output\usmart_port.o"
